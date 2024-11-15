@@ -35,3 +35,9 @@ jobs:
       - name: Run Test
         run: mvn test -Dbrowser=chromeHeadless --fail-at-end
         timeout-minutes: 2
+
+          - name: Publish Cucumber Report
+              uses: deblockt/cucumber-report-annotations-action@v1.7
+              with:
+                access-token: ${{ secrets.GITHUB_TOKEN }}
+                path: "cucumber_report.json"
