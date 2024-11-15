@@ -35,6 +35,9 @@ public class Driver extends CoreObjects {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--disable-gpu");
                 driver = new ChromeDriver(options);
                 log.info("ChromeDriver initialized in headless mode");
                 break;
