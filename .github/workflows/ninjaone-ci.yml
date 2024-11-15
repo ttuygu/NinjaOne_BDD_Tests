@@ -33,4 +33,5 @@ jobs:
         run: mvn clean install
 
       - name: Run Test
-        run: mvn test -Dbrowser=chromeHeadless
+        run: mvn test -Dbrowser=chromeHeadless --fail-at-end
+        timeout-minutes: 2
