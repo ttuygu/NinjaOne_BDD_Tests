@@ -57,7 +57,7 @@ public class Hooks extends CoreObjects {
         }
     }
 
-    @After(order = 2, value = "not @hookless")
+    @After(order = 2)
     public void tearDown() {
         Driver.closeDriver();
     }

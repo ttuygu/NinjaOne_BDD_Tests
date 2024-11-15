@@ -36,3 +36,41 @@
 2024-11-15 11:20:23 [main] INFO  LoginPage:56 - Attempting to click on link: Do not have an account?
 2024-11-15 11:20:41 [main] INFO  LoginPage:64 - Clicked on 'Do not have an account?' link
 2024-11-15 11:20:47 [main] INFO  Driver:51 - driver closed
+2024-11-15 16:59:37 [main] INFO  Hooks:27 - ===============================================================
+2024-11-15 16:59:37 [main] INFO  Hooks:28 - |     Demo is Starting...
+2024-11-15 16:59:37 [main] INFO  Hooks:29 - |     URL: https://app.ninjarmm.com/auth/#/login
+2024-11-15 16:59:37 [main] INFO  Hooks:30 - |     Browser: chrome
+2024-11-15 16:59:37 [main] INFO  Hooks:31 - |     Operating System : Mac OS X
+2024-11-15 16:59:37 [main] INFO  Hooks:32 - |     Tested by: Tugba Tuygu
+2024-11-15 16:59:37 [main] INFO  Hooks:33 - ===============================================================
+
+2024-11-15 16:59:39 [main] INFO  WebDriverManager:1220 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-15 16:59:39 [main] INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as /Users/tugbatuygu/.cache/selenium/chromedriver/mac64/130.0.6723.116/chromedriver
+2024-11-15 16:59:51 [main] INFO  Driver:32 - ChromeDriver initialized
+2024-11-15 16:59:52 [main] INFO  Hooks:48 - ===============================================================
+2024-11-15 16:59:52 [main] INFO  Hooks:49 - |          Scenario Name: Login attempt with invalid credentials
+2024-11-15 16:59:52 [main] INFO  Hooks:50 - ===============================================================
+2024-11-15 16:59:58 [main] INFO  LoginPage:33 - Navigated to https://app.ninjarmm.com/auth/#/login
+2024-11-15 17:00:32 [main] INFO  LoginPage:45 - Login attempt with "test@ninja.com"
+2024-11-15 17:00:37 [main] INFO  LoginPage:51 - Warning message: Human verification failed. Please try again or contact your system administrator for assistance.
+2024-11-15 17:00:37 [main] INFO  Driver:54 - driver closed
+2024-11-15 17:00:37 [main] INFO  WebDriverManager:1220 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-15 17:00:37 [main] INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as /Users/tugbatuygu/.cache/selenium/chromedriver/mac64/130.0.6723.116/chromedriver
+2024-11-15 17:00:50 [main] INFO  Driver:32 - ChromeDriver initialized
+2024-11-15 17:00:51 [main] INFO  Hooks:48 - ===============================================================
+2024-11-15 17:00:51 [main] INFO  Hooks:49 - |          Scenario Name: Verify "Forgot your password?" link on the login page
+2024-11-15 17:00:51 [main] INFO  Hooks:50 - ===============================================================
+2024-11-15 17:00:56 [main] INFO  LoginPage:33 - Navigated to https://app.ninjarmm.com/auth/#/login
+2024-11-15 17:00:56 [main] INFO  LoginPage:56 - Attempting to click on link: Forgot your password?
+2024-11-15 17:01:06 [main] INFO  LoginPage:60 - Clicked on 'Forgot your password?' link
+2024-11-15 17:01:07 [main] INFO  Driver:54 - driver closed
+2024-11-15 17:01:07 [main] INFO  WebDriverManager:1220 - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-15 17:01:07 [main] INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as /Users/tugbatuygu/.cache/selenium/chromedriver/mac64/130.0.6723.116/chromedriver
+2024-11-15 17:01:15 [main] INFO  Driver:32 - ChromeDriver initialized
+2024-11-15 17:01:15 [main] INFO  Hooks:48 - ===============================================================
+2024-11-15 17:01:15 [main] INFO  Hooks:49 - |          Scenario Name: Verify "Do not have an account?" link on the login page
+2024-11-15 17:01:15 [main] INFO  Hooks:50 - ===============================================================
+2024-11-15 17:01:20 [main] INFO  LoginPage:33 - Navigated to https://app.ninjarmm.com/auth/#/login
+2024-11-15 17:01:20 [main] INFO  LoginPage:56 - Attempting to click on link: Do not have an account?
+2024-11-15 17:01:38 [main] INFO  LoginPage:64 - Clicked on 'Do not have an account?' link
+2024-11-15 17:01:45 [main] INFO  Driver:54 - driver closed
