@@ -35,9 +35,22 @@ jobs:
       - name: Run Test
         run: mvn test -Dbrowser=chromeHeadless --fail-at-end
         timeout-minutes: 2
+       - name: Install dependencies
+        run: |
+              bundle install
 
-          - name: Publish Cucumber Report
+              - name: Run Cucumber tests
+        run: |
+              bundle exec cucumber --format json --out cucumber_report.json
+
+        - name: Publish Cucumber Report
               uses: deblockt/cucumber-report-annotations-action@v1.7
               with:
                 access-token: ${{ secrets.GITHUB_TOKEN }}
                 path: "cucumber_report.json"
+
+       - name: Upload Test Report Artifact
+                      uses: actions/upload-artifact@v2
+                      with:
+                        name: cucumber-report
+                        path: cucumber_report.json
